@@ -15,7 +15,7 @@ def dec2bin(numero_decimal, numero_bits):
         else:
             numero binario =numero binerio[3:len(numero_binario)] #quita el "-Ob"
             del principio while len(numero_binario) < numero_bits:  #añade e 1's a la izquierda si hace falta
-            numero_binario = "1" + numero_binario   
+                numero_binario = "1" + numero_binario   
 return numero_binario
 
 # ----------------------------------------
